@@ -6,6 +6,10 @@
     <title>이젠 인테리어</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <!-- 네비게이션 영역 시작 -->
@@ -228,9 +232,113 @@
           </div>
         </section>
         <!-- 프로필 바 섹션 끝-->
-        <!-- 포트폴리오 섹션 시작 -->
-        <section class="col-md-7 col-lg-9">연락처</section>
-        <!-- 포트폴리오 섹션 끝 -->
+        <!-- contact 섹션 시작 -->
+        <section class="col-md-7 col-lg-9 order-1 order-md-2 text-center">
+          <!-- contact 섹션 시작 -->
+          <section class="row pt-3 pb-5">
+            <div class="col-lg-9 mx-auto">
+              <h3 class="fs-1 fw-bold pb-3">Contact</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat, eveniet molestias. Voluptas sequi distinctio labore
+                vel. Aperiam, in fugit. Quis, dignissimos! Sequi ab quas ullam.
+              </p>
+
+              <div class="py-4 contact-bg mt-3">
+                <p class="fs-4 fw-bold logo-font mb-0">
+                  <i class="bi bi-telephone-fill me-3 me-lg-5"></i>010-000-0000
+                </p>
+              </div>
+              <div class="py-4 contact-bg mt-3">
+                <p class="fs-4 fw-bold logo-font mb-0">
+                  <i class="bi bi-envelope-open-heart me-3 me-lg-5"></i
+                  >codethem@naver.com
+                </p>
+              </div>
+              <div class="py-4 contact-bg mt-3">
+                <p class="fs-4 fw-bold logo-font mb-0">
+                  <i class="bi bi-shop me-3 me-lg-5"></i>지하철 8호선 모란역 2번
+                  출구
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- contact 섹션 끝 -->
+          <hr />
+          <!-- 문의 사항 섹션 시작 -->
+          <div class="row py-5">
+            <div class="col-lg-9 mx-auto">
+              <h2 class="fs-1 fw-bold pb-3">문의 사항</h2>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                beatae architecto tempore.
+              </p>
+              <form action="" class="text-start bg-warning p-5">
+                <div class="mb-3">
+                  <lable for="user-name" class="form-lable">이름</lable>
+                  <input
+                    type="text"
+                    placeholder="이름"
+                    class="form-control bg-transparent border-dark"
+                    id="user-name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <lable for="user-email" class="form-lable">이메일</lable>
+                  <input
+                    type="email"
+                    placeholder="email@abc.com"
+                    class="form-control border-dark bg-transparent"
+                    id="user-email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <lable for="user-msg" class="form-lable">문의 사항</lable>
+                  <textarea
+                    class="form-control border-dark bg-transparent"
+                    name=""
+                    placeholder="문의 사항을 남겨 주세요."
+                    id="user-msg"
+                    cols="30"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="news-letter-check"
+                    checked
+                  />
+                  <label for="news-letter-check" class="form-check-lable"
+                    >이젠 인테리어 뉴스레터 받아보기</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-dark">전송하기</button>
+              </form>
+            </div>
+          </div>
+          <!-- 문의 사항 섹션 끝 -->
+          <hr />
+          <!-- 구글 맵 섹션 시작 -->
+          <section class="py-4">
+            <h2 class="fs-1 fw-bold">오시는 길</h2>
+            <p class="text-muted py-3">
+              주소 : Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Facilis, rerum.
+            </p>
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101381.96158294537!2d126.97726079726563!3d37.4327035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca883df7418d1%3A0x1e9926ba0f71d15c!2z7J207KCgSVTsu7Ttk6jthLDslYTsubTrjbDrr7g!5e0!3m2!1sko!2skr!4v1714009762216!5m2!1sko!2skr"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </section>
+          <!-- 구글 맵 센셕 끝 -->
+        </section>
+        <!-- contact 섹션끝 -->
       </div>
     </main>
     <!-- 메인 섹션 끝 -->
